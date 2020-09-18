@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="" />
+    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestYield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/002juc/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xander/juc/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewThreadTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
+      <file leaf-file-name="TestInterrupt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state relative-caret-position="47">
+              <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,20 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutionException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ExecutionException.java">
+      <file leaf-file-name="TestYield.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestYield.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XdCallable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="880">
+              <caret line="40" column="18" selection-start-line="40" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,20 +48,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XdThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdThread.java">
+      <file leaf-file-name="TestJoin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="34" column="85" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="34" selection-end-column="85" />
+            <state relative-caret-position="368">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="64" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XdRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdRunnable.java">
+      <file leaf-file-name="TestDaemon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="10" selection-start-line="23" selection-end-line="24" />
+            <state relative-caret-position="503">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeUnit.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="385" column="21" selection-start-line="385" selection-start-column="21" selection-end-line="385" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterruptedException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/InterruptedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+              <folding>
+                <element signature="e#15020#15021#0" expanded="true" />
+                <element signature="e#15084#15085#0" expanded="true" />
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#17619#17620#0" expanded="true" />
+                <element signature="e#17660#17661#0" expanded="true" />
+                <element signature="e#19132#19133#0" expanded="true" />
+                <element signature="e#19175#19176#0" expanded="true" />
+                <element signature="e#36709#36710#0" expanded="true" />
+                <element signature="e#36767#36768#0" expanded="true" />
+                <element signature="e#37304#37305#0" expanded="true" />
+                <element signature="e#37347#37348#0" expanded="true" />
+                <element signature="e#38621#38622#0" expanded="true" />
+                <element signature="e#38666#38667#0" expanded="true" />
+                <element signature="e#52232#52233#0" expanded="true" />
+                <element signature="e#52261#52262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +132,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>callable</find>
+      <find>ownership</find>
+      <find>interrupted</find>
+      <find>throws InterruptedException</find>
+      <find>beforeThread</find>
     </findStrings>
+    <replaceStrings>
+      <replace>previousThread</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +151,10 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdRunnable.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestYield.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java" />
       </list>
     </option>
   </component>
@@ -103,6 +171,9 @@
     <option name="x" value="838" />
     <option name="width" value="1089" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,7 +202,22 @@
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
               <item name="002juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_01newThread" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_02thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_02thread" type="462c0819:PsiDirectoryNode" />
+              <item name="TestJoin.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -148,6 +234,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xander.juc._02thread" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace\blog_workspace\002juc" />
     </key>
@@ -164,27 +253,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewThreadTest.testCallable">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="002juc" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration name="NewThreadTest.testCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestJoin.testJoinWithTimeOut">
+    <configuration name="TestDaemon.testDaemon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._01newThread.*" />
+          <option name="PATTERN" value="com.xander.juc._02thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._01newThread" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._01newThread.NewThreadTest" />
-      <option name="METHOD_NAME" value="testCallable" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._02thread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._02thread.TestDaemon" />
+      <option name="METHOD_NAME" value="testDaemon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -195,19 +277,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NewThreadTest.testNewThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInterrupt.testInterrupted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._01newThread.*" />
+          <option name="PATTERN" value="com.xander.juc._02thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._01newThread" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._01newThread.NewThreadTest" />
-      <option name="METHOD_NAME" value="testNewThread" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._02thread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._02thread.TestInterrupt" />
+      <option name="METHOD_NAME" value="testInterrupted" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -218,19 +300,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NewThreadTest.testRunnable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestJoin.testJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._01newThread.*" />
+          <option name="PATTERN" value="com.xander.juc._02thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._01newThread" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._01newThread.NewThreadTest" />
-      <option name="METHOD_NAME" value="testRunnable" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._02thread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._02thread.TestJoin" />
+      <option name="METHOD_NAME" value="testJoin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestJoin.testJoinWithTimeOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="002juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xander.juc._02thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._02thread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._02thread.TestJoin" />
+      <option name="METHOD_NAME" value="testJoinWithTimeOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestYield.testYield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="002juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xander.juc._02thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._02thread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._02thread.TestYield" />
+      <option name="METHOD_NAME" value="testYield" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -257,18 +385,24 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.NewThreadTest.testNewThread" />
-      <item itemvalue="JUnit.NewThreadTest.testRunnable" />
-      <item itemvalue="JUnit.NewThreadTest.testCallable" />
+      <item itemvalue="JUnit.TestInterrupt.testInterrupted" />
+      <item itemvalue="JUnit.TestYield.testYield" />
+      <item itemvalue="JUnit.TestJoin.testJoin" />
+      <item itemvalue="JUnit.TestDaemon.testDaemon" />
+      <item itemvalue="JUnit.TestJoin.testJoinWithTimeOut" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NewThreadTest.testCallable" />
-        <item itemvalue="JUnit.NewThreadTest.testRunnable" />
-        <item itemvalue="JUnit.NewThreadTest.testNewThread" />
+        <item itemvalue="JUnit.TestJoin.testJoinWithTimeOut" />
+        <item itemvalue="JUnit.TestDaemon.testDaemon" />
+        <item itemvalue="JUnit.TestJoin.testJoin" />
+        <item itemvalue="JUnit.TestYield.testYield" />
+        <item itemvalue="JUnit.TestInterrupt.testInterrupted" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -281,44 +415,44 @@
       <option name="presentableId" value="Default" />
       <updated>1600255164720</updated>
       <workItem from="1600255166159" duration="2499000" />
-      <workItem from="1600305356271" duration="5565000" />
+      <workItem from="1600305356271" duration="23903000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 42m 40s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoin - 2020.09.18 at 10h 44m 37s.xml">
+      <configuration name="TestJoin.testJoin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 42m 46s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoin - 2020.09.18 at 10h 44m 50s.xml">
+      <configuration name="TestJoin.testJoin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 42m 51s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoin - 2020.09.18 at 10h 44m 58s.xml">
+      <configuration name="TestJoin.testJoin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 44m 19s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoin - 2020.09.18 at 10h 48m 20s.xml">
+      <configuration name="TestJoin.testJoin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 44m 57s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestDaemon_testDaemon - 2020.09.18 at 11h 05m 44s.xml">
+      <configuration name="TestDaemon.testDaemon" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testNewThread - 2020.09.17 at 09h 47m 05s.xml">
-      <configuration name="NewThreadTest.testNewThread" configurationId="JUnit" />
+    <history-entry file="TestDaemon_testDaemon - 2020.09.18 at 11h 08m 55s.xml">
+      <configuration name="TestDaemon.testDaemon" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testRunnable - 2020.09.17 at 09h 52m 08s.xml">
-      <configuration name="NewThreadTest.testRunnable" configurationId="JUnit" />
+    <history-entry file="TestDaemon_testDaemon - 2020.09.18 at 11h 19m 35s.xml">
+      <configuration name="TestDaemon.testDaemon" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testRunnable - 2020.09.17 at 09h 52m 26s.xml">
-      <configuration name="NewThreadTest.testRunnable" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoinWithTimeOut - 2020.09.18 at 11h 41m 06s.xml">
+      <configuration name="TestJoin.testJoinWithTimeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testRunnable - 2020.09.17 at 09h 52m 56s.xml">
-      <configuration name="NewThreadTest.testRunnable" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoinWithTimeOut - 2020.09.18 at 11h 41m 20s.xml">
+      <configuration name="TestJoin.testJoinWithTimeOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewThreadTest_testCallable - 2020.09.17 at 11h 06m 57s.xml">
-      <configuration name="NewThreadTest.testCallable" configurationId="JUnit" />
+    <history-entry file="TestJoin_testJoinWithTimeOut - 2020.09.18 at 11h 41m 36s.xml">
+      <configuration name="TestJoin.testJoinWithTimeOut" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8064000" />
+    <option name="totallyTimeSpent" value="26402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -326,21 +460,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896176" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32827735" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.271645" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16576381" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49674267" visible="true" weight="0.16364606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21981981" visible="true" weight="0.16364606" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50325733" side_tool="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" sideWeight="0.7809695" side_tool="true" weight="0.16364606" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -361,7 +495,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
@@ -434,6 +568,14 @@
             <element signature="e#17660#17661#0" expanded="true" />
             <element signature="e#19132#19133#0" expanded="true" />
             <element signature="e#19175#19176#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+            <element signature="e#38621#38622#0" expanded="true" />
+            <element signature="e#38666#38667#0" expanded="true" />
+            <element signature="e#52232#52233#0" expanded="true" />
+            <element signature="e#52261#52262#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
@@ -573,23 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="742" column="54" lean-forward="true" selection-start-line="742" selection-start-column="54" selection-end-line="742" selection-end-column="54" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -597,24 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/RunnableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="34" column="85" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="34" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -635,20 +746,114 @@
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="34" column="85" selection-start-line="28" selection-start-column="8" selection-end-line="34" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="298">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="385" column="21" selection-start-line="385" selection-start-column="21" selection-end-line="385" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#17619#17620#0" expanded="true" />
+            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+            <element signature="e#38621#38622#0" expanded="true" />
+            <element signature="e#38666#38667#0" expanded="true" />
+            <element signature="e#52232#52233#0" expanded="true" />
+            <element signature="e#52261#52262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestYield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="18" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
     </entry>
