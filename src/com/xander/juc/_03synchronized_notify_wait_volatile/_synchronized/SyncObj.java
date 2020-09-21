@@ -75,5 +75,4 @@ public class SyncObj {
             System.out.println(Thread.currentThread().getName() + " -no lock- " + ++value);
         }
     }
-
 }

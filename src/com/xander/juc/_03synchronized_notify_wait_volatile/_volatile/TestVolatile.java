@@ -1,5 +1,7 @@
 package com.xander.juc._03synchronized_notify_wait_volatile._volatile;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Description:
  *
@@ -8,38 +10,34 @@ package com.xander.juc._03synchronized_notify_wait_volatile._volatile;
  */
 public class TestVolatile {
 
-
     public static void main(String[] args) throws InterruptedException {
-        NumThread thread = new NumThread();
+        FlagThread thread = new FlagThread();
         thread.start();
-        for (int i = 0; i < 500000; i++) {
-            thread.reduce();
+        while (!thread.isFlag()){
+            if(thread.isFlag()){
+                System.out.println("读取到 flag = true");
+                break;
+            }
         }
-        System.out.println(Thread.currentThread().getName() + " 获取num: " + thread.getNum());
     }
 }
 
-class NumThread extends Thread {
+class FlagThread extends Thread {
 
-    private int num;
+    // 使用 volatile 修饰变量，保证变量修改后，线程间可见
+    private volatile boolean flag;
 
-    public void inc() {
-        this.num++;
-    }
-
-    public void reduce() {
-        this.num--;
-    }
-
-    public int getNum() {
-        return num;
+    public boolean isFlag() {
+        return flag;
     }
 
     @Override
     public void run() {
-        for (int i = 0; i < 500000; i++) {
-            num++;
+        try {
+            TimeUnit.MILLISECONDS.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName() + " 当前num: " + num);
+        this.flag = true;
     }
 }
