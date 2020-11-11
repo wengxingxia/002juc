@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="">
+    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="ThreadLocal">
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/NoThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/UseThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,105 +23,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestInterrupt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java">
+      <file leaf-file-name="NoThreadLocalTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/NoThreadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
+            <state relative-caret-position="166">
+              <caret line="93" column="49" lean-forward="true" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJoin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
+      <file leaf-file-name="UseThreadLocalTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/UseThreadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="220">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSynchronized.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java">
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+            <state relative-caret-position="378">
+              <caret line="363" column="11" lean-forward="true" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4309#4310#0" expanded="true" />
+                <element signature="e#4336#4337#0" expanded="true" />
+                <element signature="e#8068#8069#0" expanded="true" />
+                <element signature="e#8137#8138#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewThreadTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestVolatile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-              <folding>
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestProducerConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SyncObj.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SyncClazz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -146,6 +110,10 @@
       <find>200</find>
       <find>SyncClazz</find>
       <find>成员</find>
+      <find>threadLocals</find>
+      <find>@bef</find>
+      <find>@BeforeClass</find>
+      <find>userList.add(</find>
     </findStrings>
     <replaceStrings>
       <replace>previousThread</replace>
@@ -154,6 +122,7 @@
       <replace>300</replace>
       <replace>类</replace>
       <replace>SyncObj</replace>
+      <replace>userMap.put(u1.getId(),</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdThread.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdRunnable.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java" />
-        <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestYield.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java" />
@@ -179,12 +147,18 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Boss.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java" />
-        <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/ImageFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/User.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/ThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/NoThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/UseThreadLocalTest.java" />
       </list>
     </option>
   </component>
@@ -198,9 +172,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="994" />
+    <option name="x" value="950" />
+    <option name="y" value="-8" />
     <option name="width" value="938" />
-    <option name="height" value="1059" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,7 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +215,7 @@
               <item name="002juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
+              <item name="_01newThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
@@ -247,15 +223,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
-              <item name="_synchronized" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
-              <item name="_volatile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
@@ -265,24 +232,33 @@
               <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
               <item name="notify_wait" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_04threadLocal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ie&#9;PSI&#9;JAVA://sun.plugin.viewer.frame.IExplorerEmbeddedFrame" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="E:/study/studyNote" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xander.juc._04threadLocal" />
+      <recent name="com.xander.juc" />
       <recent name="com.xander.juc._02thread" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -301,18 +277,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestVolatile">
-    <configuration name="TestVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._volatile.TestVolatile" />
+  <component name="RunManager" selected="JUnit.UseThreadLocalTest">
+    <configuration name="NewThreadTest.testCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._03synchronized_notify_wait_volatile._volatile.NumThread" />
+          <option name="PATTERN" value="com.xander.juc._01newThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._01newThread" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._01newThread.NewThreadTest" />
+      <option name="METHOD_NAME" value="testCallable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="TestProducerConsumer.testProducerConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoThreadLocalTest.testNoThradLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="002juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xander.juc._04threadLocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._04threadLocal" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._04threadLocal.NoThreadLocalTest" />
+      <option name="METHOD_NAME" value="testNoThradLocal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestProducerConsumer.testProducerConsumer2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
@@ -324,7 +336,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile.notify_wait" />
       <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile.notify_wait.TestProducerConsumer" />
-      <option name="METHOD_NAME" value="testProducerConsumer" />
+      <option name="METHOD_NAME" value="testProducerConsumer2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -335,20 +347,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestSynchronized.testSyncClazz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UseThreadLocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.*" />
+          <option name="PATTERN" value="com.xander.juc._04threadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.TestSynchronized" />
-      <option name="METHOD_NAME" value="testSyncClazz" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._04threadLocal" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._04threadLocal.UseThreadLocalTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -358,42 +370,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestSynchronized.testSyncObjDiffLock (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UseThreadLocalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.*" />
+          <option name="PATTERN" value="com.xander.juc._04threadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.TestSynchronized" />
-      <option name="METHOD_NAME" value="testSyncObjDiffLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestSynchronized.testSyncObjSameLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="002juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile._synchronized.TestSynchronized" />
-      <option name="METHOD_NAME" value="testSyncObjSameLock" />
+      <option name="PACKAGE_NAME" value="com.xander.juc._04threadLocal" />
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._04threadLocal.UseThreadLocalTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -420,19 +409,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestSynchronized.testSyncObjSameLock" />
-      <item itemvalue="JUnit.TestSynchronized.testSyncObjDiffLock (1)" />
-      <item itemvalue="JUnit.TestSynchronized.testSyncClazz" />
-      <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer" />
-      <item itemvalue="Application.TestVolatile" />
+      <item itemvalue="JUnit.NewThreadTest.testCallable" />
+      <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer2" />
+      <item itemvalue="JUnit.NoThreadLocalTest.testNoThradLocal" />
+      <item itemvalue="JUnit.UseThreadLocalTest.test" />
+      <item itemvalue="JUnit.UseThreadLocalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestVolatile" />
-        <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer" />
-        <item itemvalue="JUnit.TestSynchronized.testSyncClazz" />
-        <item itemvalue="JUnit.TestSynchronized.testSyncObjDiffLock (1)" />
-        <item itemvalue="JUnit.TestSynchronized.testSyncObjSameLock" />
+        <item itemvalue="JUnit.UseThreadLocalTest" />
+        <item itemvalue="JUnit.UseThreadLocalTest.test" />
+        <item itemvalue="JUnit.NoThreadLocalTest.testNoThradLocal" />
+        <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer2" />
+        <item itemvalue="JUnit.NewThreadTest.testCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -451,66 +440,70 @@
       <updated>1600255164720</updated>
       <workItem from="1600255166159" duration="2499000" />
       <workItem from="1600305356271" duration="34687000" />
-      <workItem from="1600650346987" duration="6617000" />
+      <workItem from="1600650346987" duration="7287000" />
+      <workItem from="1601010525905" duration="58000" />
+      <workItem from="1604749981495" duration="1269000" />
+      <workItem from="1604974599377" duration="14397000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducerConsumer_testProducerConsumer - 2020.09.18 at 17h 44m 43s.xml">
-      <configuration name="TestProducerConsumer.testProducerConsumer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestProducerConsumer_testProducerConsumer - 2020.09.18 at 17h 46m 02s.xml">
-      <configuration name="TestProducerConsumer.testProducerConsumer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testNoLock - 2020.09.21 at 09h 23m 45s.xml">
-      <configuration name="TestSynchronized.testNoLock" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testNoLock - 2020.09.21 at 09h 26m 14s.xml">
-      <configuration name="TestSynchronized.testNoLock" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testSyncObjSameLock - 2020.09.21 at 09h 32m 04s.xml">
-      <configuration name="TestSynchronized.testSyncObjSameLock" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testSyncObjDiffLock_(1) - 2020.09.21 at 09h 33m 55s.xml">
-      <configuration name="TestSynchronized.testSyncObjDiffLock (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testSyncClazz - 2020.09.21 at 09h 43m 25s.xml">
-      <configuration name="TestSynchronized.testSyncClazz" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testSyncClazz - 2020.09.21 at 09h 52m 08s.xml">
-      <configuration name="TestSynchronized.testSyncClazz" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSynchronized_testSyncClazz - 2020.09.21 at 09h 52m 29s.xml">
-      <configuration name="TestSynchronized.testSyncClazz" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestProducerConsumer_testProducerConsumer - 2020.09.21 at 10h 08m 44s.xml">
       <configuration name="TestProducerConsumer.testProducerConsumer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewThreadTest_testCallable - 2020.11.10 at 10h 17m 34s.xml">
+      <configuration name="NewThreadTest.testCallable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewThreadTest_testCallable - 2020.11.10 at 10h 18m 02s.xml">
+      <configuration name="NewThreadTest.testCallable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProducerConsumer_testProducerConsumer2 - 2020.11.10 at 11h 12m 56s.xml">
+      <configuration name="TestProducerConsumer.testProducerConsumer2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProducerConsumer_testProducerConsumer2 - 2020.11.10 at 11h 13m 05s.xml">
+      <configuration name="TestProducerConsumer.testProducerConsumer2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProducerConsumer_testProducerConsumer2 - 2020.11.10 at 11h 13m 12s.xml">
+      <configuration name="TestProducerConsumer.testProducerConsumer2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadLocalTest_testNoThradLocal - 2020.11.10 at 15h 57m 27s.xml">
+      <configuration name="ThreadLocalTest.testNoThradLocal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadLocalTest_testNoThradLocal - 2020.11.10 at 16h 00m 54s.xml">
+      <configuration name="ThreadLocalTest.testNoThradLocal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UseThreadLocalTest_test - 2020.11.10 at 16h 12m 46s.xml">
+      <configuration name="UseThreadLocalTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UseThreadLocalTest - 2020.11.11 at 14h 35m 17s.xml">
+      <configuration name="UseThreadLocalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43803000" />
+    <option name="totallyTimeSpent" value="60197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="994" y="0" width="938" height="1059" extended-state="0" />
+    <frame x="950" y="-8" width="938" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32721382" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21058315" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22968581" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21981981" visible="true" weight="0.26082003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.2180937" visible="true" weight="0.27790433" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.7809695" side_tool="true" weight="0.16364606" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" sideWeight="0.7819063" side_tool="true" visible="true" weight="0.27790433" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -521,7 +514,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,19 +522,244 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ThreadLocal" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/io/FilterReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/ImageFileUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -612,10 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,24 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10956">
           <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-            <element signature="e#38621#38622#0" expanded="true" />
-            <element signature="e#38666#38667#0" expanded="true" />
-            <element signature="e#52232#52233#0" expanded="true" />
-            <element signature="e#52261#52262#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,13 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -849,13 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -867,13 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -898,31 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-            <element signature="e#38621#38622#0" expanded="true" />
-            <element signature="e#38666#38667#0" expanded="true" />
-            <element signature="e#52232#52233#0" expanded="true" />
-            <element signature="e#52261#52262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestDaemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -941,9 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="32" selection-start-line="22" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,22 +1102,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncObj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/SyncClazz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        <state relative-caret-position="1166">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
+        <state relative-caret-position="2288">
+          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -980,42 +1126,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="638">
+          <caret line="31" column="1" selection-start-line="10" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="946">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/ImageFileUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/io/FilterReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="261">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java">
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="181" column="21" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
           <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#9341#9342#0" expanded="true" />
+            <element signature="e#9377#9378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/NoThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="93" column="49" lean-forward="true" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/UseThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="363" column="11" lean-forward="true" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="11" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
           </folding>
         </state>
       </provider>
