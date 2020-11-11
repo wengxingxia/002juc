@@ -103,7 +103,7 @@
       <find>callable</find>
       <find>ownership</find>
       <find>interrupted</find>
-      <find>throws InterruptedException</find>
+      <find />
       <find>beforeThread</find>
       <find>5</find>
       <find>100</find>
@@ -171,11 +171,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="950" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="989" />
     <option name="width" value="938" />
-    <option name="height" value="1056" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -481,6 +480,15 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="60197000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="-8" width="938" height="1056" extended-state="0" />
