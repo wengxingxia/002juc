@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_05lock/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,124 +29,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
+      <file leaf-file-name="AtomicArrayDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6754">
-              <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
+            <state relative-caret-position="347">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding>
-                <element signature="e#4309#4310#0" expanded="true" />
-                <element signature="e#4336#4337#0" expanded="true" />
-                <element signature="e#8068#8069#0" expanded="true" />
-                <element signature="e#8137#8138#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2926">
-              <caret line="166" selection-start-line="166" selection-end-line="357" />
+            <state relative-caret-position="236">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
               <folding>
-                <element signature="e#0#14202#0" expanded="true" />
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LockTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
+      <file leaf-file-name="LongAdderDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3014">
-              <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongAdder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2695#2696#0" expanded="true" />
+                <element signature="e#2718#2719#0" expanded="true" />
+                <element signature="e#2803#2804#0" expanded="true" />
+                <element signature="e#2827#2828#0" expanded="true" />
+                <element signature="e#5497#5498#0" expanded="true" />
+                <element signature="e#5532#5533#0" expanded="true" />
+                <element signature="e#5681#5682#0" expanded="true" />
+                <element signature="e#5717#5718#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <file leaf-file-name="AtomicIntegerFieldUpdaterDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+            <state relative-caret-position="305">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicStampedReferenceDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicReferenceDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomicReference.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
               <folding>
-                <element signature="e#0#27602#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#6907#6908#0" expanded="true" />
-                <element signature="e#7116#7117#0" expanded="true" />
-                <element signature="e#7150#7151#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#3492#3493#0" expanded="true" />
+                <element signature="e#3569#3570#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLockDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReentrantLockDemo.java">
+      <file leaf-file-name="AtomicLongDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
-              <folding>
-                <element signature="e#22933#22934#0" expanded="true" />
-                <element signature="e#22965#22966#0" expanded="true" />
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadWriteLockDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicInteger.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#9642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Unsafe.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractOwnableSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-              <folding>
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-176">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -181,6 +181,7 @@
       <find>lock(</find>
       <find>tryAc</find>
       <find>getAndAddInt(</find>
+      <find>comp</find>
     </findStrings>
     <replaceStrings>
       <replace>previousThread</replace>
@@ -196,6 +197,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -233,6 +240,12 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_05lock/RecursionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_05lock/ReentrantLockDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java" />
       </list>
     </option>
   </component>
@@ -259,7 +272,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,10 +331,26 @@
               <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="_05lock" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_06cas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_06cas" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -337,12 +365,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xander.juc._06cas.atomic" />
       <recent name="com.xander.juc._05lock" />
       <recent name="com.xander.juc._04threadLocal" />
       <recent name="com.xander.juc" />
       <recent name="com.xander.juc._02thread" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\blog_workspace\002juc\src\com\xander\juc\_06cas" />
       <recent name="F:\workspace\blog_workspace\002juc" />
     </key>
   </component>
@@ -358,95 +388,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockDemo">
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._05lock.ReadWriteLockDemo" />
+  <component name="RunManager" selected="Application.AtomicStampedReferenceDemo">
+    <configuration name="AtomicArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicArrayDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._05lock.*" />
+          <option name="PATTERN" value="com.xander.juc._06cas.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._05lock.ReentrantLockDemo" />
+    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicIntegerDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._05lock.*" />
+          <option name="PATTERN" value="com.xander.juc._06cas.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LockTest.testLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicReferenceDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._05lock.*" />
+          <option name="PATTERN" value="com.xander.juc._06cas.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._05lock" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._05lock.LockTest" />
-      <option name="METHOD_NAME" value="testLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
-    <configuration name="LockTest.testLockInterruptibly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicStampedReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicStampedReferenceDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._05lock.*" />
+          <option name="PATTERN" value="com.xander.juc._06cas.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._05lock" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._05lock.LockTest" />
-      <option name="METHOD_NAME" value="testLockInterruptibly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
-    <configuration name="LockTest.testTryLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockCas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.MockCas" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._05lock.*" />
+          <option name="PATTERN" value="com.xander.juc._06cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._05lock" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._05lock.LockTest" />
-      <option name="METHOD_NAME" value="testTryLock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -464,19 +455,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LockTest.testLock" />
-      <item itemvalue="JUnit.LockTest.testTryLock" />
-      <item itemvalue="JUnit.LockTest.testLockInterruptibly" />
-      <item itemvalue="Application.ReentrantLockDemo" />
-      <item itemvalue="Application.ReadWriteLockDemo" />
+      <item itemvalue="Application.MockCas" />
+      <item itemvalue="Application.AtomicIntegerDemo" />
+      <item itemvalue="Application.AtomicArrayDemo" />
+      <item itemvalue="Application.AtomicReferenceDemo" />
+      <item itemvalue="Application.AtomicStampedReferenceDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="JUnit.LockTest.testLockInterruptibly" />
-        <item itemvalue="JUnit.LockTest.testTryLock" />
-        <item itemvalue="JUnit.LockTest.testLock" />
+        <item itemvalue="Application.AtomicStampedReferenceDemo" />
+        <item itemvalue="Application.AtomicReferenceDemo" />
+        <item itemvalue="Application.AtomicArrayDemo" />
+        <item itemvalue="Application.AtomicIntegerDemo" />
+        <item itemvalue="Application.MockCas" />
       </list>
     </recent_temporary>
   </component>
@@ -500,6 +491,8 @@
       <workItem from="1604749981495" duration="1269000" />
       <workItem from="1604974599377" duration="23324000" />
       <workItem from="1605194494205" duration="3695000" />
+      <workItem from="1605199382036" duration="44000" />
+      <workItem from="1605232770031" duration="10266000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocal">
       <created>1605097177792</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605097201908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lock">
+      <created>1605199404909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605199404909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -551,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72819000" />
+    <option name="totallyTimeSpent" value="83129000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -564,7 +564,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -575,18 +574,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30119178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3206934" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.2180937" visible="true" weight="0.13326226" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21651377" visible="true" weight="0.13539445" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.7819063" side_tool="true" weight="0.27790433" />
+      <window_info id="Structure" order="1" sideWeight="0.78348625" side_tool="true" weight="0.2468416" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4037199" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.24975705" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24956822" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,21 +603,223 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ThreadLocal" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal" />
+    <MESSAGE value="Lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6754">
+          <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="166" selection-start-line="166" selection-end-line="357" />
+          <folding>
+            <element signature="e#0#14202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31944">
+          <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
+          <folding>
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#9642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="27" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+          <folding>
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#27602#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6754">
+          <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="166" selection-start-line="166" selection-end-line="357" />
+          <folding>
+            <element signature="e#0#14202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31944">
+          <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
+          <folding>
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#9642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+          <folding>
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#27602#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/NoThreadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
           <caret line="93" column="49" lean-forward="true" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,9 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/io/FilterReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_02thread/TestJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -787,9 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2486">
           <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="117" column="40" lean-forward="true" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,9 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,9 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2288">
           <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,9 +1492,6 @@
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/io/FilterReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1365,16 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,9 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
           <caret line="93" column="49" selection-start-line="93" selection-start-column="49" selection-end-line="93" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,16 +1586,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/TryLockDeadlock.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3014">
-          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -1449,7 +1606,7 @@
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="31944">
           <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
           <folding>
             <element signature="e#22933#22934#0" expanded="true" />
@@ -1463,20 +1620,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="396">
           <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
           <folding>
             <element signature="e#0#9642#0" expanded="true" />
@@ -1484,10 +1634,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="654">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
           <folding>
             <element signature="e#0#27602#0" expanded="true" />
             <element signature="e#6849#6850#0" expanded="true" />
@@ -1495,6 +1655,173 @@
             <element signature="e#7116#7117#0" expanded="true" />
             <element signature="e#7150#7151#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/util/concurrent/atomic/AtomicInteger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#3627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="375" column="21" selection-start-line="375" selection-start-column="21" selection-end-line="375" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="348" column="18" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="18" />
+          <folding>
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#5248#5249#0" expanded="true" />
+            <element signature="e#5286#5287#0" expanded="true" />
+            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5769#5770#0" expanded="true" />
+            <element signature="e#5847#5848#0" expanded="true" />
+            <element signature="e#6044#6045#0" expanded="true" />
+            <element signature="e#6086#6087#0" expanded="true" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6571#6572#0" expanded="true" />
+            <element signature="e#6621#6622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+          <folding>
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2827#2828#0" expanded="true" />
+            <element signature="e#5497#5498#0" expanded="true" />
+            <element signature="e#5532#5533#0" expanded="true" />
+            <element signature="e#5681#5682#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
+          <folding>
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#3492#3493#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
         </state>
       </provider>
     </entry>
