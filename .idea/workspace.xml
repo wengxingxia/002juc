@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java" afterDir="false" />
+    <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="CAS和Atomic原子类">
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/Java7_ConcurrentHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_08concurrentHashMap/Java8_ConcurrentHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,118 +26,213 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AtomicArrayDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
+      <file leaf-file-name="VectorDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashtableDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Java7_ConcurrentHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/Java7_ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="441" column="16" selection-start-line="441" selection-start-column="16" selection-end-line="441" selection-end-column="16" />
               <folding>
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#10818#10848#0" expanded="true" />
+                <element signature="e#17861#17891#0" expanded="true" />
+                <element signature="e#27499#27529#0" expanded="true" />
+                <element signature="e#27962#27992#0" expanded="true" />
+                <element signature="e#29096#29126#0" expanded="true" />
+                <element signature="e#29406#29436#0" expanded="true" />
+                <element signature="e#30615#30645#0" expanded="true" />
+                <element signature="e#33317#33318#0" expanded="true" />
+                <element signature="e#33411#33412#0" expanded="true" />
+                <element signature="e#38954#38984#0" expanded="true" />
+                <element signature="e#43426#43456#0" expanded="true" />
+                <element signature="e#44183#44213#0" expanded="true" />
+                <element signature="e#58150#58180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <file leaf-file-name="Java8_ConcurrentHashMap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_08concurrentHashMap/Java8_ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+            <state relative-caret-position="466">
+              <caret line="266" column="16" selection-start-line="266" selection-start-column="16" selection-end-line="266" selection-end-column="16" />
               <folding>
-                <element signature="e#10065#10066#0" expanded="true" />
-                <element signature="e#10148#10149#0" expanded="true" />
+                <element signature="e#0#262622#0" expanded="true" />
+                <element signature="e#32334#32335#0" expanded="true" />
+                <element signature="e#32385#32386#0" expanded="true" />
+                <element signature="e#33853#33896#0" expanded="true" />
+                <element signature="e#35045#35075#0" expanded="true" />
+                <element signature="e#39094#39095#0" expanded="true" />
+                <element signature="e#39146#39147#0" expanded="true" />
+                <element signature="e#40959#40960#0" expanded="true" />
+                <element signature="e#41034#41035#0" expanded="true" />
+                <element signature="e#42680#42681#0" expanded="true" />
+                <element signature="e#42719#42720#0" expanded="true" />
+                <element signature="e#44347#44348#0" expanded="true" />
+                <element signature="e#44395#44396#0" expanded="true" />
+                <element signature="e#48122#48123#0" expanded="true" />
+                <element signature="e#48173#48174#0" expanded="true" />
+                <element signature="e#60066#60096#1" expanded="true" />
+                <element signature="e#61828#61858#1" expanded="true" />
+                <element signature="e#61909#61939#1" expanded="true" />
+                <element signature="e#62487#62517#1" expanded="true" />
+                <element signature="e#65240#65241#0" expanded="true" />
+                <element signature="e#65287#65288#0" expanded="true" />
+                <element signature="e#88654#88655#0" expanded="true" />
+                <element signature="e#88697#88698#0" expanded="true" />
+                <element signature="e#93710#93711#0" expanded="true" />
+                <element signature="e#93797#93798#0" expanded="true" />
+                <element signature="e#94566#94596#1" expanded="true" />
+                <element signature="e#98542#98572#1" expanded="true" />
+                <element signature="e#100126#100156#1" expanded="true" />
+                <element signature="e#184485#184515#0" expanded="true" />
+                <element signature="e#198192#198219#0" expanded="true" />
+                <element signature="e#201481#201508#0" expanded="true" />
+                <element signature="e#202518#202545#0" expanded="true" />
+                <element signature="e#203561#203588#0" expanded="true" />
+                <element signature="e#204628#204655#0" expanded="true" />
+                <element signature="e#205723#205750#0" expanded="true" />
+                <element signature="e#207186#207213#0" expanded="true" />
+                <element signature="e#208655#208682#0" expanded="true" />
+                <element signature="e#210135#210162#0" expanded="true" />
+                <element signature="e#211673#211700#0" expanded="true" />
+                <element signature="e#213534#213561#0" expanded="true" />
+                <element signature="e#215401#215428#0" expanded="true" />
+                <element signature="e#217271#217298#0" expanded="true" />
+                <element signature="e#219190#219217#0" expanded="true" />
+                <element signature="e#220736#220766#1" expanded="true" />
+                <element signature="e#221292#221319#0" expanded="true" />
+                <element signature="e#222832#222862#1" expanded="true" />
+                <element signature="e#223392#223419#0" expanded="true" />
+                <element signature="e#225001#225031#1" expanded="true" />
+                <element signature="e#225576#225603#0" expanded="true" />
+                <element signature="e#227497#227527#1" expanded="true" />
+                <element signature="e#228063#228090#0" expanded="true" />
+                <element signature="e#229994#230024#1" expanded="true" />
+                <element signature="e#230564#230591#0" expanded="true" />
+                <element signature="e#232511#232541#1" expanded="true" />
+                <element signature="e#233083#233110#0" expanded="true" />
+                <element signature="e#235070#235100#1" expanded="true" />
+                <element signature="e#235644#235671#0" expanded="true" />
+                <element signature="e#237523#237553#1" expanded="true" />
+                <element signature="e#237959#237986#0" expanded="true" />
+                <element signature="e#239848#239878#1" expanded="true" />
+                <element signature="e#240288#240315#0" expanded="true" />
+                <element signature="e#242193#242223#1" expanded="true" />
+                <element signature="e#242635#242662#0" expanded="true" />
+                <element signature="e#244580#244610#1" expanded="true" />
+                <element signature="e#245024#245051#0" expanded="true" />
+                <element signature="e#246865#246895#1" expanded="true" />
+                <element signature="e#247295#247322#0" expanded="true" />
+                <element signature="e#249146#249176#1" expanded="true" />
+                <element signature="e#249580#249607#0" expanded="true" />
+                <element signature="e#251447#251477#1" expanded="true" />
+                <element signature="e#251883#251910#0" expanded="true" />
+                <element signature="e#253790#253820#1" expanded="true" />
+                <element signature="e#254228#254255#0" expanded="true" />
+                <element signature="e#256058#256088#1" expanded="true" />
+                <element signature="e#256485#256512#0" expanded="true" />
+                <element signature="e#258325#258355#1" expanded="true" />
+                <element signature="e#258756#258783#0" expanded="true" />
+                <element signature="e#260612#260642#1" expanded="true" />
+                <element signature="e#261045#261072#0" expanded="true" />
+                <element signature="e#262941#262971#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongAdderDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
+      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongAdder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+            <state relative-caret-position="22">
+              <caret line="2491" column="43" selection-end-line="6312" />
               <folding>
-                <element signature="e#2695#2696#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#2803#2804#0" expanded="true" />
-                <element signature="e#2827#2828#0" expanded="true" />
-                <element signature="e#5497#5498#0" expanded="true" />
-                <element signature="e#5532#5533#0" expanded="true" />
-                <element signature="e#5681#5682#0" expanded="true" />
-                <element signature="e#5717#5718#0" expanded="true" />
+                <element signature="e#0#262622#0" expanded="true" />
+                <element signature="e#32334#32335#0" expanded="true" />
+                <element signature="e#32385#32386#0" expanded="true" />
+                <element signature="e#39094#39095#0" expanded="true" />
+                <element signature="e#39146#39147#0" expanded="true" />
+                <element signature="e#40959#40960#0" expanded="true" />
+                <element signature="e#41034#41035#0" expanded="true" />
+                <element signature="e#42680#42681#0" expanded="true" />
+                <element signature="e#42719#42720#0" expanded="true" />
+                <element signature="e#44347#44348#0" expanded="true" />
+                <element signature="e#44395#44396#0" expanded="true" />
+                <element signature="e#48122#48123#0" expanded="true" />
+                <element signature="e#48173#48174#0" expanded="true" />
+                <element signature="e#65240#65241#0" expanded="true" />
+                <element signature="e#65287#65288#0" expanded="true" />
+                <element signature="e#88654#88655#0" expanded="true" />
+                <element signature="e#88697#88698#0" expanded="true" />
+                <element signature="e#93710#93711#0" expanded="true" />
+                <element signature="e#93797#93798#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicIntegerFieldUpdaterDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
+      <file leaf-file-name="AtomicInteger.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="1914">
+              <caret line="132" column="73" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicStampedReferenceDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
+      <file leaf-file-name="Unsafe.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
+            <state relative-caret-position="5720">
+              <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicReferenceDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AtomicReference.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
+            <state relative-caret-position="20570">
+              <caret line="971" column="19" selection-start-line="971" selection-start-column="19" selection-end-line="971" selection-end-column="19" />
               <folding>
-                <element signature="e#1707#1708#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#3492#3493#0" expanded="true" />
-                <element signature="e#3569#3570#0" expanded="true" />
+                <element signature="e#0#39347#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomicLongDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
+      <file leaf-file-name="MockCas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="748">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enumeration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -156,12 +248,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>callable</find>
-      <find>ownership</find>
-      <find>interrupted</find>
-      <find>throws InterruptedException</find>
-      <find>beforeThread</find>
-      <find>5</find>
       <find>100</find>
       <find>200</find>
       <find>SyncClazz</find>
@@ -182,6 +268,16 @@
       <find>tryAc</find>
       <find>getAndAddInt(</find>
       <find>comp</find>
+      <find>当</find>
+      <find>Node</find>
+      <find>TreeNode</find>
+      <find>TreeBin</find>
+      <find>baseCount</find>
+      <find>MAXIMUM_CAPACITY</find>
+      <find>new ForwardingNode</find>
+      <find>new CounterCell</find>
+      <find>transf</find>
+      <find>1222.9900112323232</find>
     </findStrings>
     <replaceStrings>
       <replace>previousThread</replace>
@@ -193,6 +289,7 @@
       <replace>userMap.put(u1.getId(),</replace>
       <replace>Thread.currentThread().getName() +&quot;</replace>
       <replace>100</replace>
+      <replace>修改</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -246,6 +343,12 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/ConcurrentHashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/Java7_ConcurrentHashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_08concurrentHashMap/Java8_ConcurrentHashMap.java" />
       </list>
     </option>
   </component>
@@ -259,9 +362,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="838" />
-    <option name="width" value="1089" />
-    <option name="height" value="1047" />
+    <option name="x" value="757" />
+    <option name="y" value="1" />
+    <option name="width" value="1160" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,7 +375,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,58 +406,73 @@
               <item name="002juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_01newThread" type="462c0819:PsiDirectoryNode" />
+              <item name="_07concurrentHashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
               <item name="002juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
+              <item name="_08concurrentHashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_03synchronized_notify_wait_volatile" type="462c0819:PsiDirectoryNode" />
-              <item name="notify_wait" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_04threadLocal" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_05lock" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_06cas" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="002juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_06cas" type="462c0819:PsiDirectoryNode" />
-              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,6 +481,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/study/studyNote" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15310585" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
@@ -372,6 +496,7 @@
       <recent name="com.xander.juc._02thread" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\blog_workspace\002juc\lib" />
       <recent name="F:\workspace\blog_workspace\002juc\src\com\xander\juc\_06cas" />
       <recent name="F:\workspace\blog_workspace\002juc" />
     </key>
@@ -388,19 +513,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicStampedReferenceDemo">
+  <component name="RunManager" selected="Application.HashtableDemo">
     <configuration name="AtomicArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicArrayDemo" />
-      <module name="002juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xander.juc._06cas.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.atomic.AtomicIntegerDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
@@ -429,12 +544,22 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MockCas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._06cas.MockCas" />
+    <configuration name="HashtableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._07concurrentHashMap.HashtableDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._06cas.*" />
+          <option name="PATTERN" value="com.xander.juc._07concurrentHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._07concurrentHashMap.VectorDemo" />
+      <module name="002juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xander.juc._07concurrentHashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,24 +580,24 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.MockCas" />
-      <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Application.AtomicArrayDemo" />
       <item itemvalue="Application.AtomicReferenceDemo" />
       <item itemvalue="Application.AtomicStampedReferenceDemo" />
+      <item itemvalue="Application.VectorDemo" />
+      <item itemvalue="Application.HashtableDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashtableDemo" />
+        <item itemvalue="Application.VectorDemo" />
         <item itemvalue="Application.AtomicStampedReferenceDemo" />
         <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.AtomicArrayDemo" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="Application.MockCas" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_NON_PUBLIC" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -492,7 +617,13 @@
       <workItem from="1604974599377" duration="23324000" />
       <workItem from="1605194494205" duration="3695000" />
       <workItem from="1605199382036" duration="44000" />
-      <workItem from="1605232770031" duration="10266000" />
+      <workItem from="1605232770031" duration="10820000" />
+      <workItem from="1605404607405" duration="106000" />
+      <workItem from="1605528523274" duration="12414000" />
+      <workItem from="1605750041814" duration="24522000" />
+      <workItem from="1605837850678" duration="782000" />
+      <workItem from="1606093246962" duration="1192000" />
+      <workItem from="1606114936129" duration="3723000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocal">
       <created>1605097177792</created>
@@ -515,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605199404909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CAS和Atomic原子类">
+      <created>1605255418662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605255418662</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -551,7 +689,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83129000" />
+    <option name="totallyTimeSpent" value="126422000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -567,32 +705,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32713348" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3206934" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32286024" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21651377" visible="true" weight="0.13539445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.2112" visible="true" weight="0.14392324" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.78348625" side_tool="true" weight="0.2468416" />
+      <window_info id="Structure" order="1" sideWeight="0.7888" side_tool="true" weight="0.14392324" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4037199" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.24975705" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24956822" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.16901408" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,24 +742,398 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ThreadLocal" />
     <MESSAGE value="Lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lock" />
+    <MESSAGE value="CAS和Atomic原子类" />
+    <option name="LAST_COMMIT_MESSAGE" value="CAS和Atomic原子类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="132" column="73" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5720">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20064">
+          <caret line="971" column="19" selection-start-line="971" selection-start-column="19" selection-end-line="971" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54802">
+          <caret line="2491" column="43" selection-start-line="2491" selection-start-column="43" selection-end-line="2491" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#262622#0" expanded="true" />
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#40959#40960#0" expanded="true" />
+            <element signature="e#41034#41035#0" expanded="true" />
+            <element signature="e#42680#42681#0" expanded="true" />
+            <element signature="e#42719#42720#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+            <element signature="e#48122#48123#0" expanded="true" />
+            <element signature="e#48173#48174#0" expanded="true" />
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+            <element signature="e#88654#88655#0" expanded="true" />
+            <element signature="e#88697#88698#0" expanded="true" />
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3520">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="132" column="73" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5720">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20570">
+          <caret line="971" column="19" selection-start-line="971" selection-start-column="19" selection-end-line="971" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53790">
+          <caret line="2486" column="68" lean-forward="true" selection-start-line="2486" selection-start-column="68" selection-end-line="2486" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#262622#0" expanded="true" />
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#40959#40960#0" expanded="true" />
+            <element signature="e#41034#41035#0" expanded="true" />
+            <element signature="e#42680#42681#0" expanded="true" />
+            <element signature="e#42719#42720#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+            <element signature="e#48122#48123#0" expanded="true" />
+            <element signature="e#48173#48174#0" expanded="true" />
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+            <element signature="e#88654#88655#0" expanded="true" />
+            <element signature="e#88697#88698#0" expanded="true" />
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.7.0_60/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20702">
+          <caret line="984" selection-start-line="984" selection-end-line="1000" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="52" selection-start-line="3" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6754">
           <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
-          <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2926">
           <caret line="166" selection-start-line="166" selection-end-line="357" />
-          <folding>
-            <element signature="e#0#14202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3014">
           <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,12 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31944">
           <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
-          <folding>
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,10 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,13 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#27602#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,12 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6754">
           <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
-          <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2926">
           <caret line="166" selection-start-line="166" selection-end-line="357" />
-          <folding>
-            <element signature="e#0#14202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,9 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3014">
           <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,12 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31944">
           <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
-          <folding>
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,9 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,10 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,13 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
           <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#27602#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,12 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7766">
           <caret line="353" column="34" lean-forward="true" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
-          <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3652">
           <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="357" />
-          <folding>
-            <element signature="e#0#14202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,9 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3124">
           <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,13 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4906">
           <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#27602#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,10 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,12 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17842">
           <caret line="856" column="44" lean-forward="true" selection-start-line="856" selection-start-column="44" selection-end-line="856" selection-end-column="44" />
-          <folding>
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,12 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="181" column="21" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
-          <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1566,12 +1985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6754">
           <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
-          <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1579,9 +1992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2926">
           <caret line="166" selection-start-line="166" selection-end-line="357" />
-          <folding>
-            <element signature="e#0#14202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1590,10 +2000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1608,12 +2014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31944">
           <caret line="1511" selection-start-line="1511" selection-end-line="1520" selection-end-column="5" />
-          <folding>
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1624,23 +2024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_05lock/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,13 +2035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
           <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#27602#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1662,30 +2042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#3627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="375" column="21" selection-start-line="375" selection-start-column="21" selection-end-line="375" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1693,26 +2049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="348" column="18" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="18" />
-          <folding>
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1851#1852#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
-            <element signature="e#2585#2586#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
-            <element signature="e#5248#5249#0" expanded="true" />
-            <element signature="e#5286#5287#0" expanded="true" />
-            <element signature="e#5484#5485#0" expanded="true" />
-            <element signature="e#5523#5524#0" expanded="true" />
-            <element signature="e#5769#5770#0" expanded="true" />
-            <element signature="e#5847#5848#0" expanded="true" />
-            <element signature="e#6044#6045#0" expanded="true" />
-            <element signature="e#6086#6087#0" expanded="true" />
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6326#6327#0" expanded="true" />
-            <element signature="e#6571#6572#0" expanded="true" />
-            <element signature="e#6621#6622#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1720,12 +2056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1733,97 +2063,404 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="550">
           <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1210">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
+        <state relative-caret-position="154">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="2640">
           <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-          <folding>
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#2827#2828#0" expanded="true" />
-            <element signature="e#5497#5498#0" expanded="true" />
-            <element signature="e#5532#5533#0" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="2838">
           <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-          <folding>
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#3492#3493#0" expanded="true" />
-            <element signature="e#3569#3570#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="528">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
+        <state relative-caret-position="924">
+          <caret line="52" selection-start-line="3" selection-end-line="52" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap.java" />
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="2598" selection-start-line="2553" selection-end-line="2598" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="85" selection-start-line="85" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="286" column="67" selection-start-line="286" selection-start-column="67" selection-end-line="286" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.7.0_60/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="1120" column="13" selection-start-line="1120" selection-start-column="13" selection-end-line="1120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/util/concurrent/ConcurrentHashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20570">
+          <caret line="971" column="19" selection-start-line="971" selection-start-column="19" selection-end-line="971" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/VectorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5720">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="132" column="73" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/HashtableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2491" column="43" selection-end-line="6312" />
+          <folding>
+            <element signature="e#0#262622#0" expanded="true" />
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#40959#40960#0" expanded="true" />
+            <element signature="e#41034#41035#0" expanded="true" />
+            <element signature="e#42680#42681#0" expanded="true" />
+            <element signature="e#42719#42720#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+            <element signature="e#48122#48123#0" expanded="true" />
+            <element signature="e#48173#48174#0" expanded="true" />
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+            <element signature="e#88654#88655#0" expanded="true" />
+            <element signature="e#88697#88698#0" expanded="true" />
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/Java7_ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="441" column="16" selection-start-line="441" selection-start-column="16" selection-end-line="441" selection-end-column="16" />
+          <folding>
+            <element signature="e#10818#10848#0" expanded="true" />
+            <element signature="e#17861#17891#0" expanded="true" />
+            <element signature="e#27499#27529#0" expanded="true" />
+            <element signature="e#27962#27992#0" expanded="true" />
+            <element signature="e#29096#29126#0" expanded="true" />
+            <element signature="e#29406#29436#0" expanded="true" />
+            <element signature="e#30615#30645#0" expanded="true" />
+            <element signature="e#33317#33318#0" expanded="true" />
+            <element signature="e#33411#33412#0" expanded="true" />
+            <element signature="e#38954#38984#0" expanded="true" />
+            <element signature="e#43426#43456#0" expanded="true" />
+            <element signature="e#44183#44213#0" expanded="true" />
+            <element signature="e#58150#58180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_08concurrentHashMap/Java8_ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="266" column="16" selection-start-line="266" selection-start-column="16" selection-end-line="266" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#262622#0" expanded="true" />
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#33853#33896#0" expanded="true" />
+            <element signature="e#35045#35075#0" expanded="true" />
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#40959#40960#0" expanded="true" />
+            <element signature="e#41034#41035#0" expanded="true" />
+            <element signature="e#42680#42681#0" expanded="true" />
+            <element signature="e#42719#42720#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+            <element signature="e#48122#48123#0" expanded="true" />
+            <element signature="e#48173#48174#0" expanded="true" />
+            <element signature="e#60066#60096#1" expanded="true" />
+            <element signature="e#61828#61858#1" expanded="true" />
+            <element signature="e#61909#61939#1" expanded="true" />
+            <element signature="e#62487#62517#1" expanded="true" />
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+            <element signature="e#88654#88655#0" expanded="true" />
+            <element signature="e#88697#88698#0" expanded="true" />
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+            <element signature="e#94566#94596#1" expanded="true" />
+            <element signature="e#98542#98572#1" expanded="true" />
+            <element signature="e#100126#100156#1" expanded="true" />
+            <element signature="e#184485#184515#0" expanded="true" />
+            <element signature="e#198192#198219#0" expanded="true" />
+            <element signature="e#201481#201508#0" expanded="true" />
+            <element signature="e#202518#202545#0" expanded="true" />
+            <element signature="e#203561#203588#0" expanded="true" />
+            <element signature="e#204628#204655#0" expanded="true" />
+            <element signature="e#205723#205750#0" expanded="true" />
+            <element signature="e#207186#207213#0" expanded="true" />
+            <element signature="e#208655#208682#0" expanded="true" />
+            <element signature="e#210135#210162#0" expanded="true" />
+            <element signature="e#211673#211700#0" expanded="true" />
+            <element signature="e#213534#213561#0" expanded="true" />
+            <element signature="e#215401#215428#0" expanded="true" />
+            <element signature="e#217271#217298#0" expanded="true" />
+            <element signature="e#219190#219217#0" expanded="true" />
+            <element signature="e#220736#220766#1" expanded="true" />
+            <element signature="e#221292#221319#0" expanded="true" />
+            <element signature="e#222832#222862#1" expanded="true" />
+            <element signature="e#223392#223419#0" expanded="true" />
+            <element signature="e#225001#225031#1" expanded="true" />
+            <element signature="e#225576#225603#0" expanded="true" />
+            <element signature="e#227497#227527#1" expanded="true" />
+            <element signature="e#228063#228090#0" expanded="true" />
+            <element signature="e#229994#230024#1" expanded="true" />
+            <element signature="e#230564#230591#0" expanded="true" />
+            <element signature="e#232511#232541#1" expanded="true" />
+            <element signature="e#233083#233110#0" expanded="true" />
+            <element signature="e#235070#235100#1" expanded="true" />
+            <element signature="e#235644#235671#0" expanded="true" />
+            <element signature="e#237523#237553#1" expanded="true" />
+            <element signature="e#237959#237986#0" expanded="true" />
+            <element signature="e#239848#239878#1" expanded="true" />
+            <element signature="e#240288#240315#0" expanded="true" />
+            <element signature="e#242193#242223#1" expanded="true" />
+            <element signature="e#242635#242662#0" expanded="true" />
+            <element signature="e#244580#244610#1" expanded="true" />
+            <element signature="e#245024#245051#0" expanded="true" />
+            <element signature="e#246865#246895#1" expanded="true" />
+            <element signature="e#247295#247322#0" expanded="true" />
+            <element signature="e#249146#249176#1" expanded="true" />
+            <element signature="e#249580#249607#0" expanded="true" />
+            <element signature="e#251447#251477#1" expanded="true" />
+            <element signature="e#251883#251910#0" expanded="true" />
+            <element signature="e#253790#253820#1" expanded="true" />
+            <element signature="e#254228#254255#0" expanded="true" />
+            <element signature="e#256058#256088#1" expanded="true" />
+            <element signature="e#256485#256512#0" expanded="true" />
+            <element signature="e#258325#258355#1" expanded="true" />
+            <element signature="e#258756#258783#0" expanded="true" />
+            <element signature="e#260612#260642#1" expanded="true" />
+            <element signature="e#261045#261072#0" expanded="true" />
+            <element signature="e#262941#262971#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>002juc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
