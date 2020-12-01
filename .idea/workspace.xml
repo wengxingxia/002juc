@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc7b043c-74e8-4885-b5c8-011b78b186a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_10blockingQueue/ArrayBlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewCachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewFixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewSingleThreadExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NoPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduleWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduledExecutorServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/AwaitTerminationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/BakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ExecuteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsShutDownDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsTerminatedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownNowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/SubmitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,16 +31,21 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/002juc$ScheduledThreadPoolExecutorDemo.ic" NAME="ScheduledThreadPoolExecutorDemo Coverage Results" MODIFIED="1606787342561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xander.juc._11threadPool.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="002juc" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConditionDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_09concurrentTools/ConditionDemo.java">
+      <file leaf-file-name="ShutDownDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="364">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="12" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,43 +53,103 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayBlockingQueueDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_10blockingQueue/ArrayBlockingQueueDemo.java">
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="220">
+              <caret line="1463" column="19" selection-start-line="1463" selection-start-column="19" selection-end-line="1463" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#81520#0" expanded="true" />
+                <element signature="e#57604#57605#0" expanded="true" />
+                <element signature="e#57649#57650#0" expanded="true" />
+                <element signature="e#58342#58343#0" expanded="true" />
+                <element signature="e#58403#58404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShutDownNowDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownNowDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2286#2287#0" expanded="true" />
-                <element signature="e#2318#2319#0" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
-                <element signature="e#2805#2806#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <file leaf-file-name="IsShutDownDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsShutDownDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="514" column="5" lean-forward="true" selection-start-line="492" selection-end-line="514" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BakDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/BakDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AwaitTerminationDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/AwaitTerminationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsTerminatedDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsTerminatedDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ExecuteDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-end-line="24" />
               <folding>
-                <element signature="e#0#50398#0" expanded="true" />
-                <element signature="e#6812#6813#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#9697#9698#0" expanded="true" />
-                <element signature="e#9732#9733#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractQueue.java" pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/AbstractQueue.java">
+      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="111" selection-start-line="111" selection-end-line="117" selection-end-column="5" />
+            <state relative-caret-position="410">
+              <caret line="205" column="44" selection-start-line="205" selection-start-column="36" selection-end-line="205" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#14929#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,11 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>成员</find>
-      <find>threadLocals</find>
-      <find>@bef</find>
-      <find>@BeforeClass</find>
-      <find>userList.add(</find>
       <find>&quot;线程1</find>
       <find>800</find>
       <find>nonfairTry</find>
@@ -115,6 +190,11 @@
       <find>newCondition</find>
       <find>this.queue =</find>
       <find>ConditionDemo</find>
+      <find>NORM_PRIORITY</find>
+      <find>workQueue.</find>
+      <find>ScheduledThreadPoolExecutor</find>
+      <find>workQueue.take</find>
+      <find>submit</find>
     </findStrings>
     <replaceStrings>
       <replace>previousThread</replace>
@@ -128,6 +208,7 @@
       <replace>100</replace>
       <replace>修改</replace>
       <replace>ArrayBlockingQueueDemo</replace>
+      <replace>ScheduledExecutorService</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,7 +245,6 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_synchronized/TestSynchronized.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/_volatile/TestVolatile.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/ImageFileUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_03synchronized_notify_wait_volatile/notify_wait/TestProducerConsumer.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/User.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_04threadLocal/ThreadLocalTest.java" />
@@ -196,6 +276,26 @@
         <option value="$PROJECT_DIR$/src/com/xander/juc/_09concurrentTools/ExchangeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_09concurrentTools/ConditionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/xander/juc/_10blockingQueue/ArrayBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NoPool.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduleWorker.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduledCase.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduledThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduledExecutorServiceDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewFixedThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewSingleThreadExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewCachedThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ExecuteDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/SubmitDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownTask.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/Task.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/BakDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownNowDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsShutDownDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsTerminatedDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/AwaitTerminationDemo.java" />
       </list>
     </option>
   </component>
@@ -209,9 +309,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="758" />
-    <option name="y" value="10" />
-    <option name="width" value="1095" />
+    <option name="x" value="489" />
+    <option name="y" value="45" />
+    <option name="width" value="1093" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -222,9 +322,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +353,7 @@
               <item name="002juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="_09concurrentTools" type="462c0819:PsiDirectoryNode" />
+              <item name="_01newThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +361,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="_09concurrentTools" type="462c0819:PsiDirectoryNode" />
-              <item name="ConditionDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_10blockingQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_10blockingQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayBlockingQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_11threadPool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_11threadPool" type="462c0819:PsiDirectoryNode" />
+              <item name="executorService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="002juc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="_11threadPool" type="462c0819:PsiDirectoryNode" />
+              <item name="executorService" type="462c0819:PsiDirectoryNode" />
+              <item name="BakDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="002juc" type="b2602c69:ProjectViewProjectNode" />
@@ -322,13 +460,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xander.juc._11threadPool.executorService" />
+      <recent name="com.xander.juc._11threadPool" />
       <recent name="com.xander.juc._09concurrentTools" />
       <recent name="com.xander.juc._06cas.atomic" />
       <recent name="com.xander.juc._05lock" />
-      <recent name="com.xander.juc._04threadLocal" />
-      <recent name="com.xander.juc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\blog_workspace\002juc\src\com\xander\juc\_11threadPool\executorService" />
       <recent name="F:\workspace\blog_workspace\002juc\lib" />
       <recent name="F:\workspace\blog_workspace\002juc\src\com\xander\juc\_06cas" />
       <recent name="F:\workspace\blog_workspace\002juc" />
@@ -346,69 +485,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayBlockingQueueDemo">
-    <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._10blockingQueue.ArrayBlockingQueueDemo" />
+  <component name="RunManager" selected="Application.AwaitTerminationDemo">
+    <configuration name="AwaitTerminationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._11threadPool.executorService.AwaitTerminationDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._10blockingQueue.*" />
+          <option name="PATTERN" value="com.xander.juc._11threadPool.executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._09concurrentTools.ConditionDemo" />
+    <configuration name="IsShutDownDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._11threadPool.executorService.IsShutDownDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._09concurrentTools.*" />
+          <option name="PATTERN" value="com.xander.juc._11threadPool.executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExchangeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._09concurrentTools.ExchangeDemo" />
+    <configuration name="IsTerminatedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._11threadPool.executorService.IsTerminatedDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._09concurrentTools.*" />
+          <option name="PATTERN" value="com.xander.juc._11threadPool.executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._09concurrentTools.SemaphoreDemo" />
+    <configuration name="ShutDownDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._11threadPool.executorService.ShutDownDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._09concurrentTools.*" />
+          <option name="PATTERN" value="com.xander.juc._11threadPool.executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestProducerConsumer.testProducerConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShutDownNowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xander.juc._11threadPool.executorService.ShutDownNowDemo" />
       <module name="002juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xander.juc._03synchronized_notify_wait_volatile.notify_wait.*" />
+          <option name="PATTERN" value="com.xander.juc._11threadPool.executorService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile.notify_wait" />
-      <option name="MAIN_CLASS_NAME" value="com.xander.juc._03synchronized_notify_wait_volatile.notify_wait.TestProducerConsumer" />
-      <option name="METHOD_NAME" value="testProducerConsumer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -426,19 +552,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.SemaphoreDemo" />
-      <item itemvalue="Application.ExchangeDemo" />
-      <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer" />
-      <item itemvalue="Application.ConditionDemo" />
-      <item itemvalue="Application.ArrayBlockingQueueDemo" />
+      <item itemvalue="Application.ShutDownDemo" />
+      <item itemvalue="Application.ShutDownNowDemo" />
+      <item itemvalue="Application.IsShutDownDemo" />
+      <item itemvalue="Application.IsTerminatedDemo" />
+      <item itemvalue="Application.AwaitTerminationDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayBlockingQueueDemo" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="JUnit.TestProducerConsumer.testProducerConsumer" />
-        <item itemvalue="Application.ExchangeDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.AwaitTerminationDemo" />
+        <item itemvalue="Application.IsTerminatedDemo" />
+        <item itemvalue="Application.IsShutDownDemo" />
+        <item itemvalue="Application.ShutDownNowDemo" />
+        <item itemvalue="Application.ShutDownDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +599,10 @@
       <workItem from="1606181303741" duration="15842000" />
       <workItem from="1606267140400" duration="2697000" />
       <workItem from="1606446147320" duration="13949000" />
+      <workItem from="1606558859890" duration="4823000" />
+      <workItem from="1606745813637" duration="4759000" />
+      <workItem from="1606785346635" duration="16004000" />
+      <workItem from="1606817573410" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocal">
       <created>1605097177792</created>
@@ -516,16 +646,17 @@
       <option name="project" value="LOCAL" />
       <updated>1606206233999</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="阻塞队列，ArrayBlockingQueue实现生产者消费者">
+      <created>1606558914562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606558914562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LockTest_testTryLock - 2020.11.12 at 15h 50m 35s.xml">
-      <configuration name="LockTest.testTryLock" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LockTest_testTryLock - 2020.11.12 at 15h 51m 11s.xml">
-      <configuration name="LockTest.testTryLock" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LockTest_testTryLock - 2020.11.12 at 15h 52m 00s.xml">
       <configuration name="LockTest.testTryLock" configurationId="JUnit" />
     </history-entry>
@@ -550,9 +681,15 @@
     <history-entry file="TestProducerConsumer_testProducerConsumer - 2020.11.24 at 15h 30m 25s.xml">
       <configuration name="TestProducerConsumer.testProducerConsumer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewThreadTest_testCallable - 2020.12.01 at 14h 20m 26s.xml">
+      <configuration name="NewThreadTest.testCallable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewThreadTest_testCallable - 2020.12.01 at 14h 20m 44s.xml">
+      <configuration name="NewThreadTest.testCallable" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164179000" />
+    <option name="totallyTimeSpent" value="194772000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -565,7 +702,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -576,25 +712,26 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49187434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38136512" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.20801733" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.20240481" visible="true" weight="0.21108742" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.79198265" side_tool="true" visible="true" weight="0.20042644" />
+      <window_info id="Structure" order="1" sideWeight="0.7975952" side_tool="true" weight="0.21108742" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.24975705" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24956822" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.16901408" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16901408" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,182 +746,15 @@
     <MESSAGE value="CAS和Atomic原子类" />
     <MESSAGE value="concurrentHashMap" />
     <MESSAGE value="控制并发流程工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="控制并发流程工具类" />
+    <MESSAGE value="阻塞队列，ArrayBlockingQueue实现生产者消费者" />
+    <option name="LAST_COMMIT_MESSAGE" value="阻塞队列，ArrayBlockingQueue实现生产者消费者" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/MockCas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/Enumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_07concurrentHashMap/CollectionsSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.7.0_60/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20702">
-          <caret line="984" selection-start-line="984" selection-end-line="1000" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="52" selection-start-line="3" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2794">
-          <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicArrayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="157" column="16" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicIntegerFieldUpdaterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAccumulatorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicStampedReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="52" lean-forward="true" selection-start-line="3" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/AtomicLongDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_06cas/atomic/LongAdderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6754">
@@ -1425,13 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4563">
-          <caret line="254" column="23" lean-forward="true" selection-start-line="254" selection-start-column="23" selection-end-line="254" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -1552,20 +1515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="181" column="21" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-853">
@@ -1577,13 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1810,9 +1752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20570">
           <caret line="971" column="19" selection-start-line="971" selection-start-column="19" selection-end-line="971" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1841,27 +1780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53900">
           <caret line="2491" column="43" selection-end-line="6312" />
-          <folding>
-            <element signature="e#0#262622#0" expanded="true" />
-            <element signature="e#32334#32335#0" expanded="true" />
-            <element signature="e#32385#32386#0" expanded="true" />
-            <element signature="e#39094#39095#0" expanded="true" />
-            <element signature="e#39146#39147#0" expanded="true" />
-            <element signature="e#40959#40960#0" expanded="true" />
-            <element signature="e#41034#41035#0" expanded="true" />
-            <element signature="e#42680#42681#0" expanded="true" />
-            <element signature="e#42719#42720#0" expanded="true" />
-            <element signature="e#44347#44348#0" expanded="true" />
-            <element signature="e#44395#44396#0" expanded="true" />
-            <element signature="e#48122#48123#0" expanded="true" />
-            <element signature="e#48173#48174#0" expanded="true" />
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-            <element signature="e#88654#88655#0" expanded="true" />
-            <element signature="e#88697#88698#0" expanded="true" />
-            <element signature="e#93710#93711#0" expanded="true" />
-            <element signature="e#93797#93798#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1993,22 +1911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/com/sun/org/apache/xalan/internal/xsltc/util/IntegerArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#60784#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2016,13 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35806#0" expanded="true" />
-            <element signature="e#6227#6228#0" expanded="true" />
-            <element signature="e#6279#6280#0" expanded="true" />
-            <element signature="e#6714#6715#0" expanded="true" />
-            <element signature="e#6757#6758#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2037,10 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="1196" column="22" selection-start-line="1196" selection-start-column="22" selection-end-line="1196" selection-end-column="22" />
-          <folding>
-            <element signature="e#45599#45600#0" expanded="true" />
-            <element signature="e#45656#45657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2048,10 +1943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
-          <folding>
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2059,10 +1950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="e#18437#18438#0" expanded="true" />
-            <element signature="e#18473#18474#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2083,7 +1970,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="202.5" y="177.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="203.0" y="178.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -2095,9 +1982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#18066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2110,39 +1994,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_09concurrentTools/ConditionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
+        <state relative-caret-position="440">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_10blockingQueue/ArrayBlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2805#2806#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="514" column="5" lean-forward="true" selection-start-line="492" selection-end-line="514" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#50398#0" expanded="true" />
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#9697#9698#0" expanded="true" />
-            <element signature="e#9732#9733#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="11044">
+          <caret line="514" column="5" selection-start-line="492" selection-end-line="514" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2150,6 +2010,255 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="111" selection-start-line="111" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_10blockingQueue/ArrayBlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19096">
+          <caret line="922" column="13" selection-start-line="922" selection-start-column="13" selection-end-line="922" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduleWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NoPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ScheduledExecutorServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewCachedThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="36" lean-forward="true" selection-start-line="12" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="429" column="10" selection-start-line="429" selection-start-column="10" selection-end-line="429" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/XdCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_01newThread/NewThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewFixedThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/ThreadPoolExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/NewSingleThreadExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="151" column="36" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="505" column="8" selection-start-line="505" selection-start-column="8" selection-end-line="505" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31219#0" expanded="true" />
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15264#15265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="100" selection-start-line="100" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="e#2940#2941#0" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/SubmitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ExecuteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="12" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/ShutDownNowDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsShutDownDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/IsTerminatedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="205" column="44" selection-start-line="205" selection-start-column="36" selection-end-line="205" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/dev/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1463" column="19" selection-start-line="1463" selection-start-column="19" selection-end-line="1463" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#81520#0" expanded="true" />
+            <element signature="e#57604#57605#0" expanded="true" />
+            <element signature="e#57649#57650#0" expanded="true" />
+            <element signature="e#58342#58343#0" expanded="true" />
+            <element signature="e#58403#58404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/BakDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xander/juc/_11threadPool/executorService/AwaitTerminationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
